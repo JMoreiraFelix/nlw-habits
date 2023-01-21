@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Habits</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Mouse+Memoirs&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <img
+        src="./assets/icon-header.svg"
+        alt="Logomarca do aplicativo de hábitos"
+      />
+      <button>
+        <img src="./assets/plus.svg" alt="Sinal de adição" />
+        <div>Registrar meu dia</div>
+      </button>
+    </header>
+    <form>
+      <div class="habits">
+        <div class="habit" data-name="run">
+          <img src="./assets/icon-running.svg" alt="Corri" />
+        </div>
+        <div class="habit" data-name="water">
+          <img src="./assets/icon-water.svg" alt="Bebi 2 litros de água" />
+        </div>
+        <div class="habit" data-name="gym">
+          <img src="./assets/icon-gym.svg" alt="Fui para a academia" />
+        </div>
+        <div class="habit" data-name="sleep">
+          <img src="./assets/icon-sleep.svg" alt="Dormi 8 horas" />
+        </div>
+        <div class="habit" data-name="walk">
+          <img src="./assets/icon-dog.svg" alt="Caminhei com meu cachorro" />
+        </div>
+        <div class="habit" data-name="eat">
+          <img src="./assets/icon-salad.svg" alt="Comi salada" />
+        </div>
+      </div>
+
+      <div class="days"></div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
